@@ -12,13 +12,11 @@ $Invalid_str = "Invalid";
 function UsernameChecker($server_output, $username){
         $invalid_usrstr = "username!";
         if(strpos($server_output, $invalid_usrstr)){
-
                 echo "Username Invalid\n";
                 return 0;
         }else{
                 echo "Username Valid\n";
                 echo $username."\n";
-                #print_r($server_output);
                 return 1;
         }
 }
