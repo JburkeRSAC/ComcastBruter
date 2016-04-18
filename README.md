@@ -1,2 +1,2 @@
-# ComcastBruter
-Comcast modem brute forcer
+# ComcastBruterCLI
+Comcast modem brute forcer CLI
